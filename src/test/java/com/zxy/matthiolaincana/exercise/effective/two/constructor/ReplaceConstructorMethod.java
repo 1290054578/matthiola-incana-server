@@ -1,4 +1,4 @@
-package com.zxy.matthiolaincana.demo.exercise.effective.two.constructor;
+package com.zxy.matthiolaincana.exercise.effective.two.constructor;
 
 /**
  * @Author: Xiangyong.zeng
