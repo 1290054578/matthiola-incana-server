@@ -53,7 +53,7 @@ public class ReplaceConstructorMethod {
      * -- 重叠构造器模式
      */
     public class NutritionFacts {
-        private int fat;
+        private final int fat;
         private int high;
         private int age;
         private int length;
@@ -125,6 +125,33 @@ public class ReplaceConstructorMethod {
             }
         }
 
+    }
+
+
+    class BeanConstructor {
+        private int fat;
+        private int high;
+        private int age;
+        private int length;
+
+        public BeanConstructor() {
+        }
+
+        public void setFat(int fat) {
+            this.fat = fat;
+        }
+
+        public void setHigh(int high) {
+            this.high = high;
+        }
+
+        public void setAge(int age) {
+            this.age = age;
+        }
+
+        public void setLength(int length) {
+            this.length = length;
+        }
     }
 
     public static void main(String[] args) {
